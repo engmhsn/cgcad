@@ -3,8 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseCode", "BaseCode", "{E54DF19D-7E28-4524-8622-14B37A5B9796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net", "Net", "{F38E2294-A88C-4965-B57C-7439351B1967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cgCore", "BaseCode\Net\cgCore\cgCore.csproj", "{6A1F08D0-1B20-45F6-AF7D-B6D6D148735A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A1F08D0-1B20-45F6-AF7D-B6D6D148735A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1F08D0-1B20-45F6-AF7D-B6D6D148735A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1F08D0-1B20-45F6-AF7D-B6D6D148735A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1F08D0-1B20-45F6-AF7D-B6D6D148735A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F38E2294-A88C-4965-B57C-7439351B1967} = {E54DF19D-7E28-4524-8622-14B37A5B9796}
+		{6A1F08D0-1B20-45F6-AF7D-B6D6D148735A} = {F38E2294-A88C-4965-B57C-7439351B1967}
 	EndGlobalSection
 EndGlobal
